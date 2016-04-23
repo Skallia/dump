@@ -2,6 +2,7 @@
 
 [![](https://img.shields.io/packagist/v/assouan/dump.svg)](https://packagist.org/packages/assouan/dump)
 [![](https://img.shields.io/packagist/dt/assouan/dump.svg)](https://packagist.org/packages/assouan/dump)
+[![](https://img.shields.io/packagist/l/assouan/dump.svg)](https://packagist.org/packages/assouan/dump)
 
 Dumps information about a variable.
 
