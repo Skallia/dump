@@ -7,7 +7,7 @@ Dumps information about a variable.
 
 ## Installation
 
-Install using composer
+Install using composer:
 
 ```bash
 $ composer require monolog/monolog
@@ -15,8 +15,16 @@ $ composer require monolog/monolog
 
 ## Usage
 
+Simple dump:
+
 ```php
 dump($var);
+```
+
+Multiple dump:
+
+```php
+dump($var1, $var2, $var3);
 ```
 
 ## Example
@@ -37,11 +45,7 @@ $fake = [
     'var42' => new DateTime(),
 ];
 
-// simple dump
 dump($fake);
-
-// multiple dump
-dump(123, 'Hello world!', false, $GLOBALS);
 ```
 
 ## Screenshot
