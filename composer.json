@@ -1,0 +1,7 @@
+{
+    "name": "assouan/dump",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    }
+}
