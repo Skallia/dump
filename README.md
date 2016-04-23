@@ -10,7 +10,7 @@ Dumps information about a variable.
 Install using composer:
 
 ```bash
-$ composer require monolog/monolog
+$ composer require assouan/dump
 ```
 
 ## Usage
