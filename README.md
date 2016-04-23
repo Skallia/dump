@@ -13,6 +13,12 @@ Install using composer
 $ composer require monolog/monolog
 ```
 
+## Usage
+
+```php
+dump($var);
+```
+
 ## Example
 
 ```php
@@ -37,4 +43,7 @@ dump($fake);
 // multiple dump
 dump(123, 'Hello world!', false, $GLOBALS);
 ```
+
+## Screenshot
+
 ![](https://i.imgsafe.org/1f254e6.png)
