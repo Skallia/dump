@@ -14,7 +14,7 @@ function dump($expression, ...$expressions)
         echo '<div>';
 
         // Expression Name
-        if ($expression_name)
+        if ($expression_name !== null)
             echo '<span style="color: #FF9800">'.$expression_name.':</span> ';
 
         // Expression Type
@@ -60,7 +60,7 @@ function dump($expression, ...$expressions)
                     echo '<div style="margin-left: 2px; padding-left: 30px; border-left: 1px solid rgba(158, 158, 158, 0.25)">';
                     $expression['__dump_recursion'] = true;
                     foreach ($expression as $key => $value)
-                        if ($key != '__dump_recursion')
+                        if ($key !== '__dump_recursion')
                             $dump_recursive($value, $key);
                     unset($expression['__dump_recursion']);
                     echo '</div>';
