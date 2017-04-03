@@ -4,7 +4,7 @@
  * @param mixed $expression
  * @param mixed ...$expressions [optional]
  */
-function dump($expression, ...$expressions)
+function dda($expression, ...$expressions)
 {
     // Recursive anonyme function
     $dump_recursive = function($expression, $expression_name = null) use (&$dump_recursive)
@@ -117,4 +117,6 @@ function dump($expression, ...$expressions)
     echo '<div style="font-family: Consolas, monospace">';
     foreach ($expressions as $expression) $dump_recursive($expression);
     echo '</div>'.PHP_EOL;
+    
+    exit;
 }
